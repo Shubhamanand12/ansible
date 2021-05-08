@@ -56,7 +56,7 @@
     connection: ssh
     tasks:
        - copy:
-             src: /var/www/html/labspa/
+             src: /var/www/html/nolo/
              dest: /var/www/html/
              remote_src: yes
 
